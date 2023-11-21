@@ -139,7 +139,7 @@ export const SmartSparrow = () => {
               address this, the decision was made to build the new platform using React,
               marking a departure from the previous technology. The primary goals of this
               transformative project were to eliminate collaboration barriers and enhance
-              the platform's usability. Uncover Gem aimed to make the platform not only
+              the platforms usability. Uncover Gem aimed to make the platform not only
               more accessible for new users but also highly scalable to meet the needs of
               advanced users. This undertaking represented a fresh approach to online
               education, emphasizing a user-centric design and a commitment to providing a
