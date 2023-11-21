@@ -301,3 +301,7 @@
     animation: fadeIn var(--durationL) ease var(--durationXL) forwards;
   }
 }
+.downloadButton {
+  margin-top: 50px;
+  margin-left: 50px;
+}

@@ -4,9 +4,9 @@ import gamestackTexture2 from 'assets/HT-Bangla.png';
 import gamestackTextureLarge from 'assets/HT-SignIn.png';
 import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
 import gamestackTexture from 'assets/HT-SignIn.png';
-import sliceTextureLarge from 'assets/slice-app-large.jpg';
-import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
-import sliceTexture from 'assets/slice-app.jpg';
+import sliceTextureLarge from 'assets/wireless.png';
+import sliceTexturePlaceholder from 'assets/wireless.png';
+import sliceTexture from 'assets/wireless.png';
 import sprTextureLarge from 'assets/uncover.png';
 import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from 'assets/uncover.png';
@@ -106,7 +106,7 @@ export const Home = () => {
         index={2}
         title="Hindustan Times Bangla News "
         description="Design and development for a news website built in React and Next.js"
-        buttonText="View website"
+        buttonText="View project"
         buttonLink="https://bangla.hindustantimes.com/"
         model={{
           type: 'phone',

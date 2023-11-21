@@ -1,27 +1,27 @@
-import backgroundSprLarge from 'assets/spr-background-large.jpg';
+import backgroundSprLarge from 'assets/uncover.png';
 import backgroundSprPlaceholder from 'assets/spr-background-placeholder.jpg';
 import imageSprBackgroundVolcanismLarge from 'assets/spr-background-volcanism-large.jpg';
 import imageSprBackgroundVolcanismPlaceholder from 'assets/spr-background-volcanism-placeholder.jpg';
 import imageSprBackgroundVolcanism from 'assets/spr-background-volcanism.jpg';
 import backgroundSpr from 'assets/spr-background.jpg';
-import imageSprComponentsDarkLarge from 'assets/spr-components-dark-large.png';
+import imageSprComponentsDarkLarge from 'assets/create-quiz.png';
 import imageSprComponentsDarkPlaceholder from 'assets/spr-components-dark-placeholder.png';
-import imageSprComponentsDark from 'assets/spr-components-dark.png';
-import imageSprComponentsLightLarge from 'assets/spr-components-light-large.png';
+import imageSprComponentsDark from 'assets/create-quiz.png';
+import imageSprComponentsLightLarge from 'assets/create-quiz.png';
 import imageSprComponentsLightPlaceholder from 'assets/spr-components-light-placeholder.png';
-import imageSprComponentsLight from 'assets/spr-components-light.png';
+import imageSprComponentsLight from 'assets/create-quiz.png';
 import imageSprDesignSystemDarkLarge from 'assets/spr-design-system-dark-large.png';
 import imageSprDesignSystemDarkPlaceholder from 'assets/spr-design-system-dark-placeholder.png';
 import imageSprDesignSystemDark from 'assets/spr-design-system-dark.png';
 import imageSprDesignSystemLightLarge from 'assets/spr-design-system-light-large.png';
 import imageSprDesignSystemLightPlaceholder from 'assets/spr-design-system-light-placeholder.png';
 import imageSprDesignSystemLight from 'assets/spr-design-system-light.png';
-import imageSprLessonBuilderDarkLarge from 'assets/spr-lesson-builder-dark-large.jpg';
-import imageSprLessonBuilderDarkPlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
-import imageSprLessonBuilderDark from 'assets/spr-lesson-builder-dark.jpg';
-import imageSprLessonBuilderLightLarge from 'assets/spr-lesson-builder-light-large.jpg';
+import imageSprLessonBuilderDarkLarge from 'assets/uncover.png';
+import imageSprLessonBuilderDarkPlaceholder from 'assets/uncover.png';
+import imageSprLessonBuilderDark from 'assets/uncover.png';
+import imageSprLessonBuilderLightLarge from 'assets/uncover.png';
 import imageSprLessonBuilderLightPlaceholder from 'assets/spr-lesson-builder-light-placeholder.jpg';
-import imageSprLessonBuilderLight from 'assets/spr-lesson-builder-light.jpg';
+import imageSprLessonBuilderLight from 'assets/uncover.png';
 import videoSprMotionLarge from 'assets/spr-motion-large.mp4';
 import videoSprMotionPlaceholder from 'assets/spr-motion-placeholder.jpg';
 import videoSprMotion from 'assets/spr-motion.mp4';
@@ -77,7 +77,7 @@ const roles = [
   'UX and UI Design',
   'Front End Development',
   'Backend Development',
-  'DevOps',
+  'PERN Stack',
   'express.js & node.js',
 ];
 
@@ -132,13 +132,24 @@ export const SmartSparrow = () => {
           <ProjectTextRow>
             <ProjectSectionHeading>The problem</ProjectSectionHeading>
             <ProjectSectionText>
-              In 2022, Uncover Gem began a project to build an entirely new platform to
-              from the ground up to serve as the most powerful tool for educators to
-              create online learning experiences. The old platform was built in Flash, and
-              there were a number of user experience problems to solve in the process of
-              moving the platform to react. The primary goals for the project were
-              reducing barriers to collaboration, and making the platform both easier for
-              new users, but with plenty of room to scale for advanced users.
+              In 2022, Uncover Gem embarked on an innovative project to create a brand-new
+              platform that would revolutionize online learning experiences for educators.
+              The initiative was born out of a recognition that the existing platform
+              needed a significant overhaul, particularly in terms of user experience. To
+              address this, the decision was made to build the new platform using React,
+              marking a departure from the previous technology. The primary goals of this
+              transformative project were to eliminate collaboration barriers and enhance
+              the platform's usability. Uncover Gem aimed to make the platform not only
+              more accessible for new users but also highly scalable to meet the needs of
+              advanced users. This undertaking represented a fresh approach to online
+              education, emphasizing a user-centric design and a commitment to providing a
+              powerful, flexible tool for educators. In a strategic move, Uncover Gem
+              integrated the capability to host queries and gather all performance metrics
+              within the same platform. This addition aimed to streamline and centralize
+              data management, offering educators a comprehensive solution for creating,
+              managing, and evaluating online learning experiences. This holistic approach
+              further distinguished the platform as a cutting-edge tool, catering to the
+              diverse needs of educators in a seamless and efficient manner.
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
@@ -209,7 +220,7 @@ export const SmartSparrow = () => {
             </ProjectTextRow>
           </ProjectSectionContent>
         </ProjectSection>
-        <ThemeProvider themeId="dark" data-invert>
+        {/* <ThemeProvider themeId="dark" data-invert>
           <ProjectSection
             backgroundOverlayOpacity={0.5}
             backgroundElement={
@@ -246,8 +257,8 @@ export const SmartSparrow = () => {
               />
             </ProjectSectionColumns>
           </ProjectSection>
-        </ThemeProvider>
-        <ProjectSection>
+        </ThemeProvider> */}
+        {/* <ProjectSection>
           <ProjectSectionContent>
             <ProjectTextRow>
               <ProjectSectionHeading>Encouraging adaptivity</ProjectSectionHeading>
@@ -276,7 +287,7 @@ export const SmartSparrow = () => {
               sizes={`(max-width: ${media.mobile}px) 100vw, 80vw`}
             />
           </ProjectSectionContent>
-        </ProjectSection>
+        </ProjectSection> */}
         <ProjectSection>
           <ProjectSectionColumns>
             <ProjectSectionContent>
@@ -389,7 +400,7 @@ export const SmartSparrow = () => {
             )}
             scale={0.6}
           >
-            <EarthSection
+            {/* <EarthSection
               scrim
               animations={['0:loop']}
               camera={[0, 0, 1.5]}
@@ -409,7 +420,7 @@ export const SmartSparrow = () => {
                   </ProjectTextRow>
                 </ProjectSectionContent>
               </ProjectSection>
-            </EarthSection>
+            </EarthSection> */}
             <EarthSection
               animations={['0:loop']}
               camera={[0, 0, 2.4]}
@@ -455,9 +466,14 @@ export const SmartSparrow = () => {
                       Interactivity
                     </ProjectSectionHeading>
                     <ProjectSectionText>
-                      Learners can then be directed to specific parts of the model and
-                      shown labels. They’re also able to click and drag to orbit around
-                      and freely explore at any time.
+                      Team can then be directed to specific parts of the model and shown
+                      labels. They’re also able to click and drag to orbit around and
+                      freely explore at any time.This example shows a 3D model of the
+                      earth which with same feature will be included in the performance
+                      metrics within the same platform. This addition aimed to streamline
+                      and centralize data management, offering educators a comprehensive
+                      solution for creating, managing, and evaluating online grading and
+                      fair evaluation.
                     </ProjectSectionText>
                   </ProjectTextRow>
                 </ProjectSectionContent>
@@ -505,21 +521,6 @@ export const SmartSparrow = () => {
             />
           </Earth>
         </ThemeProvider>
-        <ProjectSection>
-          <ProjectSectionContent>
-            <ProjectTextRow center centerMobile noMargin>
-              <ProjectSectionHeading>Project outcomes</ProjectSectionHeading>
-              {/* <ProjectSectionText>
-                Ultimately the project was successful after Smart Sparrow and the aero
-                platform were{' '}
-                <Link href="https://www.prnewswire.com/news-releases/pearson-acquires-interactive-learning-technology-from-smart-sparrow-300987673.html">
-                  acquired by Pearson in 2020
-                </Link>{' '}
-                to become a foundation for their next generation learning platform.
-              </ProjectSectionText> */}
-            </ProjectTextRow>
-          </ProjectSectionContent>
-        </ProjectSection>
       </ProjectContainer>
       <Footer />
     </Fragment>
